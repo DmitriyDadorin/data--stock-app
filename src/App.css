@@ -1,7 +1,19 @@
 .App {
   text-align: center;
-  background-color: darkred;
-  width: 1000px;
-  height: 500px;
+  background-color: #9096A3;
+  width: 65%;
+  height: 75vh;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.8);
+  border-radius: 2rem 
+}
+
+.ButtonSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  padding-bottom: 20px;  
 }
 
