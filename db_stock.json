@@ -1,0 +1,105 @@
+{
+    "1" : {
+        "name" : "Топливный фильтр FG Wilson 10000-51232",
+        "brand" : "fg wilson",
+        "typeGoods" : "filter",
+        "price": 250.00,
+        "count" : 5
+    },
+        
+    "2" : {
+        "name" : "Фильтр масляный FG Wilson 10000-59645",
+        "brand" : "fg wilson",
+        "typeGoods" : "filter",
+        "price": 1500.00,
+        "count" : 1 
+    },
+
+    "3" : {
+        "name" : "Фильтр топливный FG Wilson 10000-59652",
+        "brand" : "fg wilson",
+        "typeGoods" : "filter",
+        "price": 1600.00,
+        "count" : 1 
+    },
+
+    "4" : {
+        "name" : "Фильтр топливный FG Wilson 10000-59653",
+        "brand" : "fg wilson",
+        "typeGoods" : "filter",
+        "price": 1600.00,
+        "count" : 1 
+    },
+
+    "5" : {
+        "name" : "Фильтр топливный FG Wilson 901-202",
+        "brand" : "fg wilson",
+        "typeGoods" : "filter",
+        "price": 200.00,
+        "count" : 2 
+    },
+
+    "6" : {
+        "name" : "Фильтр масляный Perkins 140517050",
+        "brand" : "Perkins",
+        "typeGoods" : "filter",
+        "price": 200.00,
+        "count" : 3 
+    },
+
+    "7" : {
+        "name" : "Фильтр топливный Perkins 26561117",
+        "brand" : "Perkins",
+        "typeGoods" : "filter",
+        "price": 200.00,
+        "count" : 1 
+    },
+    
+    "8" : {
+        "name" : "Воздушный фильтр Lister-Petter 602-41760",
+        "brand" : "Lister-Petter",
+        "typeGoods" : "filter",
+        "price": 1000.00,
+        "count" : 1 
+    },
+
+    "9" : {
+        "name" : "Фильтр топливный Kubota SB2702",
+        "brand" : "Kubota",
+        "typeGoods" : "filter",
+        "price": 250.00,
+        "count" : 2 
+    },
+
+    "10" : {
+        "name" : "Фильтр масляный Kubota SP4603",
+        "brand" : "Kubota",
+        "typeGoods" : "filter",
+        "price": 400.00,
+        "count" : 1 
+    },
+
+    "11" : {
+        "name" : "Фильтр топливный Kubota SK3712",
+        "brand" : "Kubota",
+        "typeGoods" : "filter",
+        "price": 400.00,
+        "count" : 1 
+    },
+    
+    "12" : {
+        "name" : "Топливный электрический насос для дизельного генератора SDMO",
+        "brand" : "SDMO",
+        "typeGoods" : "pump",
+        "price": 8000.00,
+        "count" : 1 
+    },
+
+    "13" : {
+        "name" : "Термостат FG Wilon 914-004",
+        "brand" : "fg wilson",
+        "typeGoods" : "thermostat",
+        "price": 300.00,
+        "count" : 2 
+    }
+}
