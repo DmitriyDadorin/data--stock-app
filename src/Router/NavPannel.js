@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route, Link} from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 import ButtonAdd from '../Components/button_add';
 import ButtonWriteOff from '../Components/button_write_off';
 import InputSearch from '../Components/input_search';
@@ -18,13 +18,13 @@ const Header = () => {
 
 const Main = () => {
     return (
-        <div className="App">
+        <div className="main">
             <Switch>
                 <Route exact path='/databasepannel' component={DataBasePannel}/> 
                 <Route exact path='/addtobasepannel' component={AddToBasePannel}/>
                 <Route exact path='/removedatabasepannel' component={RemoveDataBasePannel}/>
             </Switch>
-        </div>
+        </div>   
     )
 }
 
@@ -64,9 +64,9 @@ const NavPannel = () => {
 const NavApp = () => {
     return(
         <div>
-            <HashRouter>
+            <BrowserRouter>
                 <NavPannel />
-            </HashRouter>
+            </BrowserRouter>
         </div>
     )
 }
