@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const ButtonAdd = () => {
     return(
         <div>
-            <button className='btn btn-success'>Добавить товар</button>
+            <button className='btn btn-outline-success'>Добавить товар</button>
         </div>
     )
 }

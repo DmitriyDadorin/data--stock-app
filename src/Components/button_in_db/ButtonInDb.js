@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const ButtonInDb = () => {
     return(
         <div>
-            <button className='btn btn-primary'>База товара</button>
+            <button className='btn btn-outline-primary'>База товара</button>
         </div>
     )
 }
