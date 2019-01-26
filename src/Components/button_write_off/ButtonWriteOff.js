@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './button_Write_Off.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const ButtonWriteOff = () => {
     return(
         <div>
-        <button>Списание товара</button>
+            <button className='btn btn-outline-danger'>Списание товара</button>
         </div>
     )
 }

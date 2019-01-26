@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
-import ButtonAdd from './Components/button_add/index';
-import ButtonWriteOff from './Components/button_write_off/index';
+import NavApp from './Router/NavPannel'; 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ButtonAdd />
-        <ButtonWriteOff />
+        <NavApp/>
       </div>
     );
   }
