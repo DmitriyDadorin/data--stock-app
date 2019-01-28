@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-const ButtonAdd = () => {
+const ButtonAdd = ({fun}) => {
     return(
         <div>
-        <button>Добавить товар</button>
+        <button onClick={fun}>Добавить товар</button>
         </div>
     )
 }
