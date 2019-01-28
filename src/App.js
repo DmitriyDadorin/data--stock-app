@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
-import ButtonAdd from './Components/button_add';
-import ButtonWriteOff from './Components/button_write_off';
-import axios from 'axios';
-import firebase from './firebase.js'; 
+import NavApp from './Router/NavPannel'; 
 
 class App extends Component {
 
@@ -29,10 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ButtonAdd 
-        goods={this.fun}
-        />
-        <ButtonWriteOff />
+        <NavApp/>
       </div>
     );
   }

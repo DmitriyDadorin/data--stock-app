@@ -1,9 +1,11 @@
 import React from 'react';
+import './Button_add.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const ButtonAdd = ({fun}) => {
     return(
         <div>
-        <button onClick={fun}>Добавить товар</button>
+            <button className='btn btn-outline-success'>Добавить товар</button>
         </div>
     )
 }
