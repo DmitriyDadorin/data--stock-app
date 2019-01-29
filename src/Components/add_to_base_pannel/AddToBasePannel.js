@@ -1,44 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
-import ButtonAdd from '../Components/button_add';
-import ButtonWriteOff from '../Components/button_write_off';
-import InputSearch from '../Components/input_search';
-import ButtonInDb from '../Components/button_in_db';
-
-import 'bootstrap/dist/css/bootstrap.css';
-import './NavPanel.css';
-
-
-const Header = () => {
-    return (
-        <header className="ButtonSection">
-          <Link to='/databasepannel'><ButtonInDb /></Link>
-          <Link to='/addtobasepannel'><ButtonAdd /></Link>
-          <Link to='/removedatabasepannel'><ButtonWriteOff /></Link>
-          <InputSearch />
-        </header>
-    )
-}
-
-const Main = () => {
-    return (
-        <main className="main">
-            <Switch>
-                <Route exact path='/databasepannel' component={DataBasePannel}/> 
-                <Route exact path='/addtobasepannel' component={AddToBasePannel}/>
-                <Route exact path='/removedatabasepannel' component={RemoveDataBasePannel}/>
-            </Switch>
-        </main>   
-    )
-}
-
-const DataBasePannel = () => {
-    return(
-        <div>
-            <h1>Page1</h1>
-        </div>
-    )
-}
 
 const AddToBasePannel = () => {
     return(
@@ -64,36 +24,9 @@ const AddToBasePannel = () => {
                 <label className='add-base-label' htmlFor='add-base-count'>Количество товара:</label>
                 <input className='add-base-input' id='add-base-count' type='text' placeholder='Количество товара'/>
             </div>
-            <button type="button" class="btn btn-success">Добавить</button>
+            <button type="button" className="btn btn-success">Добавить</button>
         </div>
     )
 }
 
-const RemoveDataBasePannel = () => {
-    return(
-        <div>
-            <h1>Page3</h1>
-        </div>
-    )
-}
-
-const NavPannel = () => {
-    return(
-        <div>
-            <Header />
-            <Main />
-        </div>
-    )
-}
-
-const NavApp = () => {
-    return(
-        <div>
-            <BrowserRouter>
-                <NavPannel />
-            </BrowserRouter>
-        </div>
-    )
-}
-
-export default NavApp;
+export default AddToBasePannel;
